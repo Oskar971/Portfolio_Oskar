@@ -1,7 +1,7 @@
 #lag {
   display: grid;
   grid-template-columns: 16% 16% 68%;
-  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: white;
 
   border-radius: 0px;
@@ -10,7 +10,7 @@
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
-  gap: 2%;
+  gap: 0%;
 
   width: 100%;
   height: auto;
@@ -25,7 +25,7 @@
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
-  gap: 2%;
+  gap: 0%;
 
   width: 100%;
   height: auto;
@@ -42,9 +42,11 @@ h2 {
 }
 .pic {
   width: 100%;
-  height: auto;
+  height: auto%;
   border-radius: 0px;
-  padding: px;
+  padding: 0px;
+  object-fit: cover;
+  display: block;
 }
 
 .visuell {
@@ -52,4 +54,12 @@ h2 {
   height: auto;
   border-radius: 10px;
   padding: 21px;
+}
+
+.prosjekter {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to top, black 75%, #4facfe);
+  grid-column: 1 / span 3;
+  grid-row: 2 / 4;
 }
