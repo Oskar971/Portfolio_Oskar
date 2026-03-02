@@ -1,0 +1,55 @@
+#lag {
+  display: grid;
+  grid-template-columns: 16% 16% 68%;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  background-color: white;
+
+  border-radius: 0px;
+  padding: 0px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  gap: 2%;
+
+  width: 100%;
+  height: auto;
+  border-radius: px;
+  padding: 18px;
+}
+.forside {
+  background-color: black;
+
+  padding: 15px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  gap: 2%;
+
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  padding: px;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+h2 {
+  color: aliceblue;
+}
+.pic {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  padding: px;
+}
+
+.visuell {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 21px;
+}
