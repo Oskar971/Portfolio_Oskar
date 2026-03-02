@@ -1,50 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #lag {
   display: grid;
-  grid-template-columns: 16% 16% 68%;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-color: white;
-
-  border-radius: 0px;
-  padding: 0px;
-  /* width: 200px; */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  gap: 0%;
-
-  width: 100%;
-  height: auto;
-  border-radius: px;
-  padding: 18px;
+  grid-template-columns: 17% 17% 66%;
+  grid-template-rows: 1fr;
 }
 .forside {
   background-color: black;
 
-  padding: 15px;
   /* width: 200px; */
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  gap: 0%;
-
   width: 100%;
   height: auto;
   border-radius: 0px;
-  padding: px;
+  padding: 15px;
 }
 
 h1 {
-  color: aliceblue;
+  color: rgb(201, 206, 211);
 }
 
 h2 {
-  color: aliceblue;
+  color: rgb(0, 126, 235);
 }
 .pic {
   width: 100%;
-  height: auto%;
-  border-radius: 0px;
-  padding: 0px;
+  height: auto;
   object-fit: cover;
   display: block;
 }
@@ -57,9 +42,25 @@ h2 {
 }
 
 .prosjekter {
-  height: 100vh;
+  height: 100%;
+  width: auto;
   margin: 0;
-  background: linear-gradient(to top, black 75%, #4facfe);
+  background: linear-gradient(to top, #7a2804, #161313);
   grid-column: 1 / span 3;
-  grid-row: 2 / 4;
+  grid-row: 2 / 3;
+}
+
+.pro {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.prosjekter4 {
+  background-color: bisque;
+}
+
+.prosjektere5 {
+  background-color: rgb(60, 106, 31);
 }
