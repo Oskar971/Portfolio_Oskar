@@ -19,18 +19,26 @@
   padding: 15px;
 }
 
-h1 {
-  color: rgb(0, 126, 235);
+.tekstOmMeg {
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: none;
+  color: white;
+  font-weight: normal;
+  padding: 2%;
 }
 
 h2 {
-  font-style: initial;
+  font-style: normal;
   font-size: 70px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: white;
   font-weight: normal;
+  padding: 2%;
 }
+
 .pic {
   width: 100%;
   height: 100%;
@@ -67,4 +75,15 @@ h2 {
 
 .prosjektere5 {
   background-color: rgb(60, 106, 31);
+}
+
+#prosjekt20 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  background-color: #7a2804;
+  text-align: center;
+}
+
+#VisAvOP {
 }
