@@ -6,13 +6,12 @@
 
 #lag {
   display: grid;
-  grid-template-columns: 17% 17% 66%;
+  grid-template-columns: 30% 70%;
   grid-template-rows: 1fr;
 }
 .forside {
   background-color: black;
 
-  /* width: 200px; */
   text-align: center;
   width: 100%;
   height: auto;
@@ -21,15 +20,20 @@
 }
 
 h1 {
-  color: rgb(201, 206, 211);
+  color: rgb(0, 126, 235);
 }
 
 h2 {
-  color: rgb(0, 126, 235);
+  font-style: initial;
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
 }
 .pic {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
@@ -41,13 +45,13 @@ h2 {
   padding: 21px;
 }
 
-.prosjekter {
+.prosjekt_container {
+  display: flex;
+  flex-direction: row;
+  row-gap: 25px;
   height: 100%;
   width: auto;
-  margin: 0;
   background: linear-gradient(to top, #7a2804, #161313);
-  grid-column: 1 / span 3;
-  grid-row: 2 / 3;
 }
 
 .pro {
