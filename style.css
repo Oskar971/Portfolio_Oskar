@@ -81,9 +81,155 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  background-color: #7a2804;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to top, #161313, #7a2804);
   text-align: center;
+  gap: 10px;
+  padding: 10px;
 }
 
 #VisAvOP {
+}
+
+.robotBlend {
+  background-color: #3d4042;
+  border: 5px solid #6f97d0;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: auto;
+}
+
+.robotPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15%;
+  padding: 10%;
+}
+.robotPic {
+  transition: 0.3s;
+}
+
+.robotPic:hover {
+  transform: scale(1.05);
+}
+
+.salmaP {
+  background-color: #3d4042;
+  border: 5px solid #6f97d0;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: auto;
+}
+
+.salmaPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15%;
+  padding: 10%;
+  height: auto;
+}
+
+.Donut {
+  background-color: #3d4042;
+  border: 5px solid #6f97d0;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: auto;
+}
+
+.DoNot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15%;
+  padding: 10%;
+}
+
+.LogoAnimasjon {
+  background-color: #3d4042;
+  border: 5px solid #6f97d0;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: auto;
+}
+
+.Raket {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15%;
+  padding: 10%;
+}
+
+.test {
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  padding: 2%;
+}
+
+.Figma {
+  background-color: #3d4042;
+  border: 5px solid #6f97d0;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: auto;
+}
+
+.FIG {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15%;
+  padding: 10%;
+}
+
+.Spill {
+  background-color: #3d4042;
+  border: 5px solid #6f97d0;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;¨
+  height: auto;
+}
+
+.Sim99 {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+  padding: 10%;
 }
