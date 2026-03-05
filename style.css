@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
 #lag {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -37,6 +43,13 @@ h2 {
   color: white;
   font-weight: normal;
   padding: 2%;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
 }
 
 .pic {
@@ -89,10 +102,13 @@ h2 {
   padding: 10px;
 }
 
-#VisAvOP {
+@media (max-width: 768px) {
+  #prosjekt20 {
+    display: block;
+  }
 }
 
-.robotBlend {
+.prosjektKort {
   background-color: #3d4042;
   border: 5px solid #6f97d0;
   border-radius: 10px;
@@ -104,132 +120,37 @@ h2 {
   height: auto;
 }
 
-.robotPic {
-  width: 100%;
-  height: 100%;
+.prosjektBilde {
+  aspect-ratio: 5/4;
   object-fit: cover;
-  display: block;
-  border-radius: 15%;
-  padding: 10%;
-}
-.robotPic {
-  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
-.robotPic:hover {
-  transform: scale(1.05);
+.hover-zoom {
+  transition: transform 0.3s ease;
 }
 
-.salmaP {
-  background-color: #3d4042;
-  border: 5px solid #6f97d0;
-  border-radius: 10px;
-  padding: 20px;
-  /* width: 200px; */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  height: auto;
+.hover-zoom:hover {
+  transform: scale(1.1); /* Zoomer inn 10% */
 }
 
-.salmaPic {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 15%;
-  padding: 10%;
-  height: auto;
-}
-
-.Donut {
-  background-color: #3d4042;
-  border: 5px solid #6f97d0;
-  border-radius: 10px;
-  padding: 20px;
-  /* width: 200px; */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  height: auto;
-}
-
-.DoNot {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 15%;
-  padding: 10%;
-}
-
-.LogoAnimasjon {
-  background-color: #3d4042;
-  border: 5px solid #6f97d0;
-  border-radius: 10px;
-  padding: 20px;
-  /* width: 200px; */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  height: auto;
-}
-
-.Raket {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 15%;
-  padding: 10%;
-}
-
-.test {
+p {
   font-style: normal;
-  font-size: 25px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: none;
   color: white;
   font-weight: normal;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
   padding: 2%;
-}
-
-.Figma {
-  background-color: #3d4042;
-  border: 5px solid #6f97d0;
-  border-radius: 10px;
-  padding: 20px;
-  /* width: 200px; */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  height: auto;
-}
-
-.FIG {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 15%;
-  padding: 10%;
-}
-
-.Spill {
-  background-color: #3d4042;
-  border: 5px solid #6f97d0;
-  border-radius: 10px;
-  padding: 20px;
-  /* width: 200px; */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;¨
-  height: auto;
-}
-
-.Sim99 {
-  width: 100%;
-  height: 100%;
-  border-radius: 15%;
-  padding: 10%;
 }
