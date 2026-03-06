@@ -47,7 +47,7 @@ h2 {
 
 @media (max-width: 768px) {
   h2 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
   }
 }
@@ -124,16 +124,16 @@ h2 {
   aspect-ratio: 5/4;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 2rem;
-  padding: 1rem;
+  border-radius: 3rem;
+  padding: 2rem;
 }
 
-.hover-zoom {
+.prosjektBilde {
   transition: transform 0.3s ease;
 }
 
-.hover-zoom:hover {
-  transform: scale(1.1); /* Zoomer inn 10% */
+.prosjektBilde:hover {
+  transform: scale(1.1);
 }
 
 p {
