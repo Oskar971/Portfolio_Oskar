@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.VisTilInfo {
-  display: flex;
-  flex-direction: row;
-  background-color: #000000;
-  padding: 15px;
-  border: 1px solid #000000;
-}
-
 h3 {
   color: #fffafa;
   font-size: x-large;
@@ -119,6 +111,7 @@ h2 {
 @media (max-width: 768px) {
   #prosjekt20 {
     display: block;
+    padding: 10px;
   }
 }
 
@@ -158,25 +151,6 @@ p {
   text-transform: none;
   color: white;
   font-weight: normal;
-}
-
-.popupTekst {
-  font-style: normal;
-  font-size: 22px;
-  letter-spacing: 1px;
-  text-transform: none;
-  color: rgb(30, 32, 27);
-  font-weight: normal;
-}
-
-.tittel {
-  font-style: normal;
-  font-size: 60px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: rgb(30, 32, 27);
-  font-weight: normal;
-  padding: 2%;
 }
 
 h1 {
