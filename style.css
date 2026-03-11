@@ -125,6 +125,7 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
   height: auto;
+  margin: 20px;
 }
 
 .prosjektBilde {
@@ -161,4 +162,8 @@ h1 {
   color: white;
   font-weight: bold;
   padding: 2%;
+}
+
+.hidden {
+  display: none;
 }
