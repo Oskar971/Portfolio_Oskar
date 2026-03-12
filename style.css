@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+.headerBar {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  background-color: #161313;
+  gap: 100px;
+  padding: 10px;
+}
+.headerBar a {
+  font-size: 30px;
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 h3 {
   color: #fffafa;
   font-size: x-large;
@@ -53,7 +69,7 @@ h2 {
 
 @media (max-width: 768px) {
   h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 1px;
   }
 }
@@ -72,7 +88,7 @@ h2 {
   padding: 21px;
 }
 
-.prosjekt_container {
+#prosjekt_container {
   display: flex;
   flex-direction: row;
   row-gap: 25px;
@@ -106,6 +122,40 @@ h2 {
   text-align: center;
   gap: 10px;
   padding: 10px;
+}
+
+.knapp {
+  background: linear-gradient(135deg, #161313, #1b1614);
+}
+
+#toggleProsjekter {
+  background: transparent;
+  height: 100%;
+  width: auto;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px 15px;
+  margin: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#toggleProsjekter:hover {
+  background: linear-gradient(135deg, #032452, #031b3d);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#toggleProsjekter:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#prosjekt20.hidden {
+  display: none !important;
 }
 
 @media (max-width: 768px) {
