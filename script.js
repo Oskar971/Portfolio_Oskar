@@ -10,11 +10,3 @@ knapp.addEventListener("click", () => {
     knapp.textContent = "Skjul prosjekter";
   }
 });
-
-document.querySelector(".about-link").addEventListener("click", function (e) {
-  e.preventDefault();
-
-  document.querySelector("#about").scrollIntoView({
-    behavior: "smooth",
-  });
-});
