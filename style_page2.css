@@ -33,3 +33,21 @@
   color: white;
   font-weight: normal;
 }
+
+#toggleProsjekter {
+  background: linear-gradient(135deg, #161313, #1b1614);
+  height: 5%;
+  width: auto;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px 15px;
+  margin: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.More {
+  border-color: #161313;
+  padding: 5px;
+}
